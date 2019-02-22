@@ -1,0 +1,116 @@
+h1, h2, h3, h4, h5 {
+    font-family: 'Merriweather', serif;
+}
+
+.fs-md-5 {
+    font-size: 6rem;
+}
+
+html, body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    font-family: 'Montserrat', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+span {
+    font-weight: bold;
+}
+
+#sample-work {
+     background-color: #1A1B25;
+     border-top: 1px solid #002626;
+     border-bottom: 1px solid #002626;
+     color: #E6E8E6 !important;
+}
+
+#studio-contact section {
+    padding-top: 0;
+    color: #1A1B25 !important;
+
+}
+
+#studio-contact {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+#services-section {
+    padding-bottom: 4em !important;
+!}
+
+#interested {
+    color: #136568;
+    font-size: 4em;
+}
+
+#first-section {
+    padding-top: 7.5rem;
+}
+
+.section-header-lightbg {
+    color: #002626;
+    text-align: center;
+}
+
+.section-header-darkbg {
+    color: #E6E8E6;
+    text-align: center;
+}
+
+.bg-semidark {
+    background-color: #136568;
+    margin-bottom: 4em;
+}
+
+.text-offwhite {
+    color: #E6E8E6;
+}
+
+::selection {
+    background-color: #136568;
+}
+
+.text-underline {
+    text-decoration-color: #595959;
+}
+
+.btn {
+    font-size: 1.1rem;
+    margin-top: 3em;
+}
+
+.lead {
+    color: #363636;
+}
+
+.card {
+    position: relative;
+    text-align: center;
+    color: #1A1B25;
+    font-size: 1.5rem;
+    transition: transform .4s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.contact-form-label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+#contact-form-button {
+    color: #E6E8E6;
+}
+
+#contact-form-button::hover {
+    background-color: #E6E8E6;
+    color: #1A1B25;
+}
+
