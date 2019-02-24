@@ -15,9 +15,17 @@ li {
 span {
     font-weight: bold;
 }
-.fs-md-5 {
-    font-size: 4rem;
+
+@media (max-width: 576px) {
+    body{font-size: 8px;}
 }
+@media (min-width: 577px) {
+    body{font-size: 14px;}
+}
+.fs-md-5 {
+    font-size: 7em;
+}
+
 .btn {
     font-size: 1.1rem;
     margin-top: 3em;
