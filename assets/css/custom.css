@@ -1,6 +1,7 @@
 /* General styles */
 h1, h2, h3, h4, h5 {
     font-family: 'Merriweather', serif;
+    max-width: 100%;
 }
 html, body {
     font-family: 'Montserrat', sans-serif;
@@ -15,7 +16,7 @@ span {
     font-weight: bold;
 }
 .fs-md-5 {
-    font-size: 6rem;
+    font-size: 4rem;
 }
 .btn {
     font-size: 1.1rem;
@@ -44,6 +45,9 @@ span {
 }
 .lead {
     color: #363636;
+}
+#intro {
+    max-width: 80%;
 }
 #interested {
     color: #136568;
